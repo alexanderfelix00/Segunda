@@ -1,0 +1,10 @@
+create database RegistroF;
+use RegistroF;
+create table persona(
+id int primary key auto_increment,
+nombre varchar (50),
+correo varchar(100),
+nacionalidad varchar(50)
+);
+insert into persona (nombre,correo,nacionalidad)values ('Felix Chiclayo','A18102305@idat.edu.pe','peruano');
+select * from persona;
