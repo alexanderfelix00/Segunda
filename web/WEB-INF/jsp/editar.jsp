@@ -21,6 +21,8 @@
                 <div class="card-boby">
                     <form method="post">
                         <label>Nombre</label>
+                        <input type=Nombre"text" name="nombre" class="form-control"value="${lista[0].nombre}">
+                         <label>Nombre</label>
                         <input type="text" name="nombre" class="form-control"value="${lista[0].nombre}">
                             <label>Correo</label>
                         <input type="text" name="correo" class="form-control" value="${lista[0].correo}">
